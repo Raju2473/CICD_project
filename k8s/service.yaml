@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: cicd-app
-        image: YOUR_DOCKER_USERNAME/cicd-app:latest
+        image: rajeshwar2473/cicd-app:latest
         ports:
         - containerPort: 3000
 ``
