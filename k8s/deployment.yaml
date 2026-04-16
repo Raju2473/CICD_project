@@ -14,6 +14,10 @@ spec:
     spec:
       containers:
       - name: cicd-app
+<<<<<<< HEAD
         image: YOUR_DOCKER_USERNAME/cicd-app:latest
+=======
+        image: rajeshwar2473/cicd-app:latest
+>>>>>>> cdd2225d673568109c117f280a4f9119bfc36868
         ports:
         - containerPort: 3000

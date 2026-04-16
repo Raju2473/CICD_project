@@ -17,4 +17,7 @@ spec:
         image: rajeshwar2473/cicd-app:latest
         ports:
         - containerPort: 3000
+<<<<<<< HEAD
 ``
+=======
+>>>>>>> cdd2225d673568109c117f280a4f9119bfc36868
