@@ -10,7 +10,8 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/Raju2473/CICD_project.git'
+                git branch: 'main',
+                     url: 'https://github.com/Raju2473/CICD_project.git'
             }
         }
 
