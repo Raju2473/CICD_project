@@ -45,7 +45,6 @@ pipeline {
         }
     }
 }
-=======
 pipeline {
     agent any
 
@@ -113,5 +112,3 @@ pipeline {
     }
 }
 
-
-give me update one
