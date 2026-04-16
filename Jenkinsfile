@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "rajeshwar2473/cicd-app"
+        IMAGE_NAME = "rajeshwar2473/cicd1-app"
         DOCKER_CREDS = credentials('dockerhub-credentials')
     }
 
